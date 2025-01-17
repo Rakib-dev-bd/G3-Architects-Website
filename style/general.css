@@ -3,6 +3,16 @@
   font-weight: 800;
   line-height: 1.1;
 }
+.secondary--heading {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.sub--heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.1;
+}
 
 .description {
   color: rgb(114, 114, 114);
@@ -30,12 +40,17 @@
 }
 
 .grid--col-2 {
+  grid-template-columns: 1fr 1fr;
 }
 .grid--col-2 {
 }
 .grid--col-2 {
 }
 .grid--col-2 {
+}
+
+.gap {
+  gap: 10px;
 }
 
 .center--text {
@@ -76,5 +91,5 @@
 
 /* Margin-here */
 .margin--bottom-sm {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }

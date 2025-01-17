@@ -62,3 +62,85 @@
 .banner-img {
   width: 100%;
 }
+
+/* Main section */
+
+/* Team section*/
+
+.teams {
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  /* gap: 80px; */
+
+  padding: 20px 60px;
+  justify-content: center;
+}
+
+.team-img {
+  width: 100%;
+  display: block;
+}
+
+.teams--content {
+  width: 80%;
+  margin: 0 auto;
+
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+/* Feature section */
+.features {
+  /* background-color: red; */
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 40px;
+  margin: 40px 0;
+}
+
+.feature--content-box {
+  width: 80%;
+}
+
+.feature--content-container {
+  width: 90%;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.feature--content-head {
+  border-radius: 8px;
+  padding: 15px 40px;
+
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+
+.feature--img {
+  width: 100%;
+}
+
+.btn--experience {
+  padding: 45px 42px;
+  border: none;
+  border-radius: 13px;
+  background-color: rgb(255, 144, 14);
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.btn--experience-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.exp {
+  font-size: 18px;
+  display: block;
+}
